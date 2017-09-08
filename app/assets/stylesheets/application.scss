@@ -1,0 +1,82 @@
+@import "bootstrap";
+@import "font-awesome";
+
+html,body
+{
+  position: fixed;
+  height: 100%;
+  width: 100%;
+  background-color: #ecf0f1;
+}
+
+.page
+{
+  position: absolute;
+  top: 0%;
+  left: 0%;
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+}
+
+.row{
+  height: 50%;
+}
+
+.sqr{
+  color: white;
+  height: 100%;
+  text-align: center;
+  position: relative;
+}
+
+.middle{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.circle{
+  border-radius: 100%;
+}
+
+#face-frame{
+  background-color: white;
+  padding: .5%;
+}
+
+#intro{
+  position: absolute;
+  background-color: white;
+  border-radius: 1%;
+  padding: 1%;
+  opacity: 0;
+  display: none;
+  top: 50%;
+  left: 50%;
+  width: 80%;
+  transform: translate(-50%, -0%);
+  text-align: justify;
+  text-justify: inter-word;
+}
+
+#facebook {
+  background-color: #3498db;
+}
+
+#github {
+  background-color: #f1c40f;
+}
+
+#linkedin {
+  background-color: #2ecc71;
+}
+
+#resume {
+  background-color: #7f8c8d;
+}
+
+#steam {
+  background-color: #2c3e50;
+}
