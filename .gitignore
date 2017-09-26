@@ -19,3 +19,4 @@
 # Ignore the secrets file, it's a secret!
 /config/secrets.yml
 /vendor/bundle
+Gemfile.lock

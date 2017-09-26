@@ -5,7 +5,7 @@ class ApplicationController < ActionController::Base
 
   def portal ; end
 
-
+  def v2 ; end
 
   def resume
     send_file 'public/BenjaminBehar.pdf',
