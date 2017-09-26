@@ -1,0 +1,13 @@
+version: '2'
+
+services:
+  ben.behar.cloud:
+    image: ben.behar.cloud
+    build: .
+    command: bundle exec rails s -p 3000 -b '0.0.0.0'
+    ports:
+      - "3000:3000"
+    environment:
+      - SECRET_KEY_BASE
+      - SECRET_TOKEN
+      - RAILS_ENV=production
