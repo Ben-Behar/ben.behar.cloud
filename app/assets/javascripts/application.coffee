@@ -6,3 +6,4 @@
 #= require util
 #= require portal
 #= require ready
+#= require colorMD5

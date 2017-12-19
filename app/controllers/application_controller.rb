@@ -7,6 +7,8 @@ class ApplicationController < ActionController::Base
 
   def v2 ; end
 
+  def test ; end
+
   def resume
     send_file 'public/BenjaminBehar.pdf',
       type: 'pdf',

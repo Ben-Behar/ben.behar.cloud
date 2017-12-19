@@ -1,7 +1,6 @@
 FROM ruby:2.3.3
-ENV APP_HOME /ben.behar.cloud
-RUN mkdir $APP_HOME
-WORKDIR $APP_HOME
-ADD Gemfile* $APP_HOME/
-RUN bundle install
-ADD . $APP_HOME
+WORKDIR /home/
+COPY Gemfile /home/
+RUN bundle
+ADD . /home/
+CMD ["bundle", "exec", "rails" , "s", "-b0.0.0.0"]
