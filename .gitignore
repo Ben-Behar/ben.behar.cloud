@@ -20,3 +20,5 @@
 /config/secrets.yml
 /vendor/bundle
 Gemfile.lock
+secret/*
+!secret/.keep

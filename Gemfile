@@ -1,10 +1,10 @@
 source 'https://rubygems.org'
 
-gem 'rails', '4.2.6' # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
+gem 'rails', '>=5.2' # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'sqlite3' # Use sqlite3 as the database for Active Record
-gem 'sass-rails', '~> 5.0' # Use SCSS for stylesheets
+gem 'sass-rails' # Use SCSS for stylesheets
 gem 'uglifier', '>= 1.3.0' # Use Uglifier as compressor for JavaScript assets
-gem 'coffee-rails', '~> 4.1.0' # Use CoffeeScript for .coffee assets and views
+gem 'coffee-rails' # Use CoffeeScript for .coffee assets and views
 gem 'slim-rails'
 gem 'bootstrap'
 gem "font-awesome-rails"
@@ -39,8 +39,4 @@ group :development do
 
   # Spring speeds up development by keeping your application running in the background. Read more: https://github.com/rails/spring
   gem 'spring'
-end
-
-group :production do
-  gem 'mupnp' # pokes holes in the router's firewall
 end

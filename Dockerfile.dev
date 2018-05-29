@@ -1,0 +1,3 @@
+FROM ben.behar.cloud:latest
+CMD ["bundle", "exec", "rails" , "s", "-b0.0.0.0", "-p3000"]
+CMD /bin/bash
